@@ -1,0 +1,50 @@
+models:
+  unicore.content.models.Category:
+    properties:
+      id:
+        index: not_analyzed
+        type: string
+      language:
+        index: not_analyzed
+        type: string
+      slug:
+        index: not_analyzed
+        type: string
+      source:
+        index: not_analyzed
+        type: string
+      uuid:
+        index: not_analyzed
+        type: string
+  unicore.content.models.Localisation:
+    properties:
+      locale:
+        index: not_analyzed
+        type: string
+  unicore.content.models.Page:
+    properties:
+      id:
+        index: not_analyzed
+        type: string
+      language:
+        index: not_analyzed
+        type: string
+      primary_category:
+        index: not_analyzed
+        type: string
+      slug:
+        index: not_analyzed
+        type: string
+      source:
+        index: not_analyzed
+        type: string
+      uuid:
+        index: not_analyzed
+        type: string
+repositories:
+  unicore_frontend_barefootlaw_za: git@github.com:universalcore/unicore-cms-content-barefootlaw-za-qa.git
+  unicore_frontend_ebola_tz: git@github.com:universalcore/unicore-cms-content-ebola-tz-qa.git
+  unicore_frontend_ffl_za: git@github.com:universalcore/unicore-cms-content-ffl-pk-qa.git
+  unicore_frontend_mariestopes_za: git@github.com:universalcore/unicore-cms-content-mariestopes-za-qa.git
+  unicore_frontend_straighttalk_za: git@github.com:universalcore/unicore-cms-content-straighttalk-za-qa.git
+  unicore_frontend_ureport_za: git@github.com:universalcore/unicore-cms-content-ureport-za-qa.git
