@@ -1,4 +1,4 @@
-/*  SETTINGS (device specific etc)  */
+/*  SETTINGS (device specific etc) -d  */
 
     html, body { -webkit-text-size-adjust: none; }
     *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -88,16 +88,16 @@
         .section-title.ffl div { background-color: #00bfc6; }
 
         /* Barefoot Law */
-        .articles .yourrights a { color: #6ec17f; }
-        .section-title.yourrights div { background-color: #6ec17f; }
+        .articles .yourrights a { color: #A1B500; }
+        .section-title.yourrights div { background-color: #A1B500; }
 
         /* Mariestopes */
-        .articles .myfamily a { color: #6093cd; }
-        .section-title.myfamily div { background-color: #6093cd; }
+        .articles .myfamily a { color: #30A8EF; }
+        .section-title.myfamily div { background-color: #30A8EF; }
 
         /* Straight Talk */
-        .articles .healthtalk  a { color: #E24256; }
-        .section-title.healthtalk  div { background-color: #E24256; }
+        .articles .healthtalk  a { color: #D3232D; }
+        .section-title.healthtalk  div { background-color: #D3232D; }
 
         /* U-report */
         .articles .ureport a { color: #ff7e4e; }

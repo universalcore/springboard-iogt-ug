@@ -32,7 +32,7 @@ setup(name='springboard_iogt_ug',
       tests_require=requires,
       entry_points={
           'paste.app_factory': [
-              'main = springboard_iogt.application:main',
+              'main = springboard_iogt_ug.application:main',
           ],
       },
       message_extractors={'springboard_iogt': [
