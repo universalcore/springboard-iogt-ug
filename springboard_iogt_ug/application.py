@@ -28,5 +28,5 @@ def main(global_config, **settings):
     config.add_static_view(
         'static', 'springboard_iogt_ug:static', cache_max_age=3600)
     config.add_translation_dirs('springboard_iogt_ug:locale/')
-
+    config.scan('.views')
     return config.make_wsgi_app()

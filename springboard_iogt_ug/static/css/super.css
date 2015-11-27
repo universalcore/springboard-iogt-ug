@@ -8,13 +8,13 @@
     .personae li{border-bottom: solid 2px #e4e4e4; }
     .personae a {
         padding: 2em 1em 2em 6em;
-        background: transparent 10px 10px no-repeat;
+        background: transparent 10px 10px/75px 75px no-repeat;
     }
 
-    .personae .child a{background-image: url('img/persona_child2.png');}
-    .personae .teenager a{background-image: url('img/persona_teenager2.png');}
-    .personae .parent a{background-image: url('img/persona_parent2.png');}
-    .personae .worker a{background-image: url('img/persona_worker2.png');}
+    .personae .youth-boy a{background-image: url('img/youth_male.jpg');}
+    .personae .youth-girl a{background-image: url('img/youth_female.jpg');}
+    .personae .father a{background-image: url('img/parent_male.jpg');}
+    .personae .mother a{background-image: url('img/parent_female.jpg');}
 
     #submenu .h1 {
         padding: 0;
