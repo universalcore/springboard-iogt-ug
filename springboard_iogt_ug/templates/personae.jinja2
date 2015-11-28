@@ -1,0 +1,20 @@
+{% extends "base.jinja2" %}
+{% from 'molecules/persona.jinja2' import persona %}
+
+{% block content %}
+<div>
+    <div class="h1 pad">{% trans %}Who are you?{% endtrans %}</div>
+    {% set query=({'next': request.GET['next']} if 'next' in request.GET else None) %}
+    <ul class="personae">
+        <li class="youth-boy">{{ persona('youth_boy', _('Youth/Boy'), query) }}</li>
+        <li class="youth-girl">{{ persona('youth_girl', _('Youth/Girl'), query) }}</li>
+        <li class="father">{{ persona('father', _('Father'), query) }}</li>
+        <li class="mother">{{ persona('mother', _('Mother'), query) }}</li>
+    </ul>
+    <div class="h1 personae-skip pad">
+        <a href="{{ 'skip_persona_selection'|route_url(_query=query) }}">{% trans %}Skip{% endtrans %}</a>
+    </div>
+</div>
+{% endblock %}
+
+{% block menu %}{# Hide the menu #}{% endblock %}
