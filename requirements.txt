@@ -1,2 +1,2 @@
 springboard>=3.0.3
-springboard_iogt
+springboard_iogt==1.0.5
